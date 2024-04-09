@@ -267,7 +267,7 @@ exports.restLink = async (req, res, next) => {
     console.log(id, "id")     
     try{
       res
-      .redirect(`https://crypfieldpreeminent@gmail.com.vercel.app/${id}/${token}`)
+      .redirect(`https://eminentfinancial-trade.vercel.app/forgotpassword/${id}/${token}`)
     }catch(err){next(err)}
   }
 
